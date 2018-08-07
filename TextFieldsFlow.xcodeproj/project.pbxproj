@@ -13,6 +13,8 @@
 		49DEC0D820A9A27200D21217 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49DEC0D720A9A27200D21217 /* Assets.xcassets */; };
 		49DEC0DB20A9A27200D21217 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49DEC0D920A9A27200D21217 /* LaunchScreen.storyboard */; };
 		49DEC0E320A9BE0C00D21217 /* UITextFieldFlower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DEC0E220A9BE0C00D21217 /* UITextFieldFlower.swift */; };
+		F82D9E20211A11680078C543 /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82D9E1F211A11680078C543 /* UITextField.swift */; };
+		F82D9E22211A12C90078C543 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82D9E21211A12C90078C543 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		49DEC0DA20A9A27200D21217 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49DEC0DC20A9A27200D21217 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49DEC0E220A9BE0C00D21217 /* UITextFieldFlower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldFlower.swift; sourceTree = "<group>"; };
+		F82D9E1F211A11680078C543 /* UITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextField.swift; sourceTree = "<group>"; };
+		F82D9E21211A12C90078C543 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +62,23 @@
 			children = (
 				49DEC0D020A9A27100D21217 /* AppDelegate.swift */,
 				49DEC0D220A9A27100D21217 /* ViewController.swift */,
+				F82D9E21211A12C90078C543 /* SecondViewController.swift */,
 				49DEC0E220A9BE0C00D21217 /* UITextFieldFlower.swift */,
 				49DEC0D420A9A27100D21217 /* Main.storyboard */,
+				F82D9E1E211A114C0078C543 /* Extensions */,
 				49DEC0D720A9A27200D21217 /* Assets.xcassets */,
 				49DEC0D920A9A27200D21217 /* LaunchScreen.storyboard */,
 				49DEC0DC20A9A27200D21217 /* Info.plist */,
 			);
 			path = TextFieldsFlow;
+			sourceTree = "<group>";
+		};
+		F82D9E1E211A114C0078C543 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F82D9E1F211A11680078C543 /* UITextField.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +155,8 @@
 				49DEC0D320A9A27100D21217 /* ViewController.swift in Sources */,
 				49DEC0D120A9A27100D21217 /* AppDelegate.swift in Sources */,
 				49DEC0E320A9BE0C00D21217 /* UITextFieldFlower.swift in Sources */,
+				F82D9E22211A12C90078C543 /* SecondViewController.swift in Sources */,
+				F82D9E20211A11680078C543 /* UITextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
